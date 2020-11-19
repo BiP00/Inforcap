@@ -1,0 +1,21 @@
+h3{
+    background-color: aqua;
+}
+
+p{
+    color:blue
+}
+#important{
+    font-size: 20px;
+}
+.info{
+    text-align: center;
+    font-weight: 800;
+}
+.info{
+    background-color: burlywood;
+    border:1px groove rgb(100, 2000, 300)
+}
+h1 span{
+    background-color: blue;
+}

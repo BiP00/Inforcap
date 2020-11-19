@@ -1,0 +1,297 @@
+*{
+    margin: 0 auto;
+}
+.invisible{
+    height: 60%;
+    width: 1px;
+    display: inline-block;
+}
+
+#wrapper{
+    width: 970px;
+    height: auto;
+}
+
+#up{
+    width: auto;
+    height: 460px;
+    background-color: #245075;
+    box-shadow: 0px 2px 3px black;
+}
+
+#down{
+    width: auto;
+    height: 310px;
+}
+
+#header{
+    width: auto;
+    height: 165px;
+}
+
+#headup{
+    width: auto;
+    height: 118px;
+}
+
+#imagen{
+    width: 285px;
+    height: 85px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 35px;
+}
+
+#python {
+    width: 100%;
+    height: 100%;
+}
+
+#headdown{
+    width: auto;
+    height: 47px;
+}
+
+#opciones{
+    width: 280px;
+    height: 108px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 366px;
+    padding-top: 10px;
+
+}
+
+#textsize{
+    display: inline-block;
+    vertical-align: top;
+    color: #e1eef9;
+    margin-left: 130px;
+    font-size: .8em;
+}
+
+.letra{
+    color: #b0a735;
+}
+
+#sombra_search{
+    width: 265px;
+    height: 60px;
+    text-align: center;
+    background-color: #444444;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 8px;
+}
+
+#search{
+    margin: 0 auto;
+    text-align: center;
+    font-size: .6em;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 30px;
+    width: 150px;
+    margin-top: 11px;
+    box-shadow: 1px 1px 0px 0px #9b9b9b inset; 
+}
+#go{
+    display: inline-block;
+    width: 40px;
+    height: 19px;
+    padding-top: 8px;
+    margin-bottom: 2px;
+    background-color: #245076;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    margin-left: 5px;    
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px grey, -1px -1px 1px 1px silver, 2px 3px 2px black;
+    
+}
+
+#go a{
+    color: white;
+    text-decoration: none;
+}
+
+#list{
+    width: 805px;
+    height: 42px;
+    text-align: center;
+    background-image: linear-gradient(#3777ad,#487eac ,#3777ad);
+    box-shadow: 3px 3px 3px black;
+    border-radius: 3px
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: #ddedfb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin: 10px 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ddedfb;
+}
+
+#headerdown{
+    width: 100%;
+    height: 295px;
+}
+
+#leftlist{
+    width: 206px;
+    height: 295px;    
+    display: inline-block;
+}
+
+#leftlist ul{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#leftlist ul li{
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    line-height: 0.7em;
+}
+
+#leftlist ul li:before{
+    content: '>>';
+    color: #d8c049;
+    font-size: 0.5em;
+    font-weight: 800;
+    margin-right: 3px;
+}
+
+#leftlist ul li a{    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+
+#headerdownright{
+    display: inline-block;
+    width: 695px;
+    height: 225px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+#parrafo{
+    width: auto;
+    text-align: center;
+}
+
+#parrafo p{
+    color: white;
+    width: 625px;
+}
+
+#better{
+    width: 326px;
+    height: 190px;
+}
+
+#better ul{
+    text-align: center;
+}
+
+#better ul li{
+    font-size: medium;
+    color: yellow;
+    line-height: 0.6em;
+}
+
+#white_li{
+    color: white;
+}
+
+#boxes{
+    width: auto;
+    height: 210px;
+}
+
+.box_blue{
+    width: 410px;
+    height: 180px;
+    border-top: 4px #73a7d6 solid;
+    margin-top: 12px;
+    text-align: center;
+    display: inline-block;
+}
+
+#boxblueleft{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.box_blue p{
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_blue h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#beginner_list{
+    margin-left: 50px;
+}
+
+.beginners{
+    font-size: 0.7em;
+    line-height: 0.7em;
+    display: block;
+    display: list-item;
+    list-style-type: square;
+    color: black;
+    margin-right: 10em;
+}
+
+#line{
+    line-height: 1em !important;
+}
+
+.beginners a{
+    text-decoration: none;
+    color: #3c8cd1;
+}
+
+#linkchico{
+    color: #3c8cd1;
+}
+
+.box_blue p a{
+    font-size: 0.8em;
+}
+
+#boxblueright{
+    vertical-align: top;
+}
+
+#footer{
+    width: auto;
+    height: 60px;
+    background-image: linear-gradient(#245178, #417aab);
+}
+
+#footer{
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+#bottom{
+    color: #74aada;
+}
+#footer h6{
+    color:  #74aada;
+    margin-left: -30px;
+}

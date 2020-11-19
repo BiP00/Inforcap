@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h3>Mi Formulario de Registro</h3>
+    <form>
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+        </p>
+        <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" id="pass">
+        </p>
+        <p>
+            <label for="confpass">Confirmar</label>
+            <input type="password" id="confpass">
+        </p>
+        <p>
+            <!--confirmar-->
+            <label for="fecha">Cumpleaños</label>
+            <input type="date" id="fecha">
+        </p>
+        <p>
+            <label for="Hombre">Hombre</label>
+            <input type="radio" name="genero" value="Hombre">
+            <label for="Mujer">Mujer</label>
+            <input type="radio" name="genero" value="Mujer">
+            <label for="Otro">Otro</label>
+            <input type="radio" name="genero" value="Otro">
+        </p>
+        <p>
+            <label for="descripcion">Una breve descripción de tí:</label>
+            <input type="textarea" id="descripcion">
+        </p>
+        <p>
+            <label for="seleccion">Lenguaje Favorito</label>
+            <select id="lenguaje">
+                <option value="javascript">JavaScript</option>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+            </select>
+        </p>
+        <p>
+            <label for="enviar"></label>
+            <input type="submit" id="enviar">
+        </p>
+    </form>
+</body>
+</html>
